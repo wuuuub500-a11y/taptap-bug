@@ -1,0 +1,60 @@
+{
+  "apps": [
+    {
+      "id": "blog",
+      "name": "个人博客",
+      "requiresPassword": false,
+      "password": "",
+      "description": "查看她的博客文章",
+      "icon": "blog_icon"
+    },
+    {
+      "id": "chat",
+      "name": "聊天软件",
+      "requiresPassword": true,
+      "password": "132199",
+      "description": "查看聊天记录",
+      "icon": "chat_icon"
+    },
+    {
+      "id": "browser",
+      "name": "浏览器",
+      "requiresPassword": false,
+      "password": "",
+      "description": "访问网页",
+      "icon": "browser_icon"
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "requiresPassword": false,
+      "password": "",
+      "description": "查看日程安排",
+      "icon": "calendar_icon"
+    },
+    {
+      "id": "gallery",
+      "name": "相册",
+      "requiresPassword": false,
+      "password": "",
+      "description": "查看照片",
+      "icon": "gallery_icon"
+    },
+    {
+      "id": "unknown",
+      "name": "未知软件",
+      "requiresPassword": false,
+      "password": "",
+      "description": "奇怪的程序...",
+      "icon": "unknown_icon"
+    },
+    {
+      "id": "notebook",
+      "name": "记事本",
+      "requiresPassword": false,
+      "password": "",
+      "description": "记录线索",
+      "icon": "notebook_icon"
+    }
+  ]
+}

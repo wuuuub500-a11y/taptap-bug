@@ -1,0 +1,144 @@
+{
+  "contacts": [
+    {
+      "id": "contact_fu",
+      "name": "小付",
+      "avatar": "avatar_fu",
+      "lastMessage": "最近还好吗？",
+      "unreadCount": 0
+    },
+    {
+      "id": "contact_guan",
+      "name": "关钦",
+      "avatar": "avatar_guan",
+      "lastMessage": "想你",
+      "unreadCount": 2
+    },
+    {
+      "id": "contact_boss",
+      "name": "老板",
+      "avatar": "avatar_boss",
+      "lastMessage": "明天早点来公司",
+      "unreadCount": 1
+    }
+  ],
+  "conversations": {
+    "contact_fu": [
+      {
+        "id": "msg_fu_001",
+        "sender": "小付",
+        "content": "我们一起去看电影吧！",
+        "timestamp": "2015-12-01 19:30",
+        "isRead": true
+      },
+      {
+        "id": "msg_fu_002",
+        "sender": "玩家",
+        "content": "好啊，看什么？",
+        "timestamp": "2015-12-01 19:35",
+        "isRead": true
+      },
+      {
+        "id": "msg_fu_003",
+        "sender": "小付",
+        "content": "最近还好吗？感觉你最近很累的样子。",
+        "timestamp": "2015-12-02 14:20",
+        "isRead": false
+      }
+    ],
+    "contact_guan": [
+      {
+        "id": "msg_guan_001",
+        "sender": "关钦",
+        "content": "宝贝，在想什么？",
+        "timestamp": "2015-11-30 22:15",
+        "isRead": true
+      },
+      {
+        "id": "msg_guan_002",
+        "sender": "玩家",
+        "content": "没什么，就是有点累。",
+        "timestamp": "2015-11-30 22:18",
+        "isRead": true
+      },
+      {
+        "id": "msg_guan_003",
+        "sender": "关钦",
+        "content": "想你",
+        "timestamp": "2015-12-01 09:30",
+        "isRead": false
+      },
+      {
+        "id": "msg_guan_004",
+        "sender": "关钦",
+        "content": "记得我们的约定吗？",
+        "timestamp": "2015-12-01 10:15",
+        "isRead": false
+      }
+    ],
+    "contact_boss": [
+      {
+        "id": "msg_boss_001",
+        "sender": "老板",
+        "content": "今天的工作报告做好了吗？",
+        "timestamp": "2015-11-29 18:45",
+        "isRead": true
+      },
+      {
+        "id": "msg_boss_002",
+        "sender": "玩家",
+        "content": "已经做好了，明天交给您。",
+        "timestamp": "2015-11-29 18:50",
+        "isRead": true
+      },
+      {
+        "id": "msg_boss_003",
+        "sender": "老板",
+        "content": "明天早点来公司，有重要的事情。",
+        "timestamp": "2015-11-30 20:00",
+        "isRead": false
+      }
+    ]
+  },
+  "questionnaire": {
+    "id": "love_questionnaire",
+    "title": "好对象问卷",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "另一半的专业是：",
+        "answer": "计算机"
+      },
+      {
+        "id": "q2",
+        "question": "另一半最喜欢的配饰是：",
+        "answer": "手表"
+      },
+      {
+        "id": "q3",
+        "question": "另一半最想收到的礼物：",
+        "answer": "手表"
+      },
+      {
+        "id": "q4",
+        "question": "你们相爱的日子：",
+        "answer": "2015214"
+      }
+    ],
+    "reward": {
+      "type": "unlock_chat",
+      "content": "hidden_chat_guan"
+    }
+  },
+  "hiddenChats": {
+    "hidden_chat_guan": [
+      {
+        "id": "hidden_msg_001",
+        "sender": "关钦",
+        "content": "亲爱的，我想大学毕业后就和你结婚，你觉得呢？",
+        "timestamp": "2015-10-15 21:30",
+        "isRead": false
+      }
+    ]
+  }
+}

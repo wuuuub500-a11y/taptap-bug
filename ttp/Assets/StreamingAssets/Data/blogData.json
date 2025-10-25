@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": "post_001",
+      "title": "新的开始",
+      "date": "2013-08-12",
+      "content": "今天和小付一起去拍照了，天气真好！我们就像周杰伦的《晴天》，喜欢第五句的音调许愿我们能永远这么好。风景真的很美，感觉我们的友谊也会像这风景一样永远美好。",
+      "tags": ["友情", "拍照"],
+      "containsClue": true,
+      "clueType": "password",
+      "clueValue": "2557176"
+    },
+    {
+      "id": "post_002",
+      "title": "工作第一天",
+      "date": "2014-03-15",
+      "content": "今天开始在新公司实习了，老板看起来很严厉，但同事们都很好。希望能在这里学到很多！",
+      "tags": ["工作", "实习"],
+      "containsClue": false
+    },
+    {
+      "id": "post_003",
+      "title": "约会纪念",
+      "date": "2015-02-14",
+      "content": "和关钦在一起的第100天！他送了我一块很漂亮的手表，说这是我最喜欢的配饰。真的好开心~",
+      "tags": ["爱情", "纪念日"],
+      "containsClue": true,
+      "clueType": "relationship",
+      "clueValue": "watch"
+    },
+    {
+      "id": "post_004",
+      "title": "生日快乐",
+      "date": "2015-06-18",
+      "content": "今天我生日，关钦准备了惊喜！他说最想送给我的礼物还是那块手表，因为那代表了我们的开始。2015214，我们开始相爱的日子。",
+      "tags": ["生日", "爱情"],
+      "containsClue": true,
+      "clueType": "anniversary",
+      "clueValue": "2015214"
+    },
+    {
+      "id": "post_005",
+      "title": "网红生活",
+      "date": "2016-01-20",
+      "content": "最近粉丝数一直在涨，好开心！虽然工作很忙，但是能和大家分享生活真的很幸福。",
+      "tags": ["网红", "工作"],
+      "containsClue": false
+    }
+  ]
+}
