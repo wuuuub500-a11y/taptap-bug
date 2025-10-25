@@ -4909,7 +4909,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273178518}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -9278,7 +9278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9286,14 +9286,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -9360,6 +9352,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &524312874
 GameObject:
   m_ObjectHideFlags: 0
@@ -15246,7 +15252,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918113901}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -37952,6 +37958,119 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2460, y: 1340}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2145806044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2145806047}
+  - component: {fileID: 2145806046}
+  - component: {fileID: 2145806045}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2145806045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145806044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9859e250edb87d3469a12f078bc9a8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Plane_Fly_By>k__BackingField:
+    Guid:
+      Data1: -800940042
+      Data2: 1264764799
+      Data3: 1141695882
+      Data4: -1379108453
+    Path: event:/Plane_Fly_By
+  <ComputerOperating>k__BackingField:
+    Guid:
+      Data1: 1204273262
+      Data2: 1244164339
+      Data3: -412779880
+      Data4: 591581595
+    Path: event:/Computer_Operating
+  <ComputerOperating_Glitch>k__BackingField:
+    Guid:
+      Data1: 1614042777
+      Data2: 1326456605
+      Data3: -537254477
+      Data4: -1937638079
+    Path: event:/Computer_Operatinv_Glitch
+  <Password_Correct>k__BackingField:
+    Guid:
+      Data1: 546246943
+      Data2: 1200258920
+      Data3: 848622507
+      Data4: -397887256
+    Path: event:/Password_Correct
+  <Password_Incorrect>k__BackingField:
+    Guid:
+      Data1: 87247876
+      Data2: 1179111501
+      Data3: 410720409
+      Data4: 352791496
+    Path: event:/Password_Incorrect
+  <News_Notification>k__BackingField:
+    Guid:
+      Data1: -602779092
+      Data2: 1197809652
+      Data3: 251121806
+      Data4: 1678158927
+    Path: event:/News_Notification
+  <Plastic_Folder>k__BackingField:
+    Guid:
+      Data1: -954128217
+      Data2: 1122597993
+      Data3: 1949793447
+      Data4: 1166396279
+    Path: event:/Plastic_Folder
+  <Typing_Password>k__BackingField:
+    Guid:
+      Data1: -495395407
+      Data2: 1257113848
+      Data3: 2051449474
+      Data4: 523891699
+    Path: event:/Typing_Password
+--- !u!114 &2145806046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145806044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7789cca8a464fc343b9b2dd652108dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2145806047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145806044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1416.8146, y: 699.11395, z: -9.609867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -37962,3 +38081,4 @@ SceneRoots:
   - {fileID: 1099474831}
   - {fileID: 1054080459}
   - {fileID: 1579113360}
+  - {fileID: 2145806047}
