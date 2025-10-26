@@ -13,6 +13,7 @@ public class KeyChecker : MonoBehaviour
     public TextMeshProUGUI keyText;
     public TextMeshProUGUI countdownText;
     public TextMeshProUGUI statusText;
+    public FileImageController imageController;
 
     [Header("Game settings")]
     public float maxTime = 30f;     // 初始倒计时时间
@@ -107,6 +108,7 @@ public class KeyChecker : MonoBehaviour
                     StartClearStatusCoroutine(correctMsgDuration);
                     if (currentIndex < sequence.Count)
                     {
+                        imageController.ChangeSprite();
                         keyText.text = sequence[currentIndex].displayText;
                     }
                     else
