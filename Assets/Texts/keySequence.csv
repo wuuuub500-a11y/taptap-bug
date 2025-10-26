@@ -1,0 +1,16 @@
+列 1,列 2
+up,1000
+down,0100
+up&down,1100
+up&left,1010
+down&left,0110
+right&down,0101
+down&up,1100
+left&right,0011
+up&right,1001
+!up,0111
+!right,1110
+!down,1011
+!(up&right),0110
+!(left&up),0101
+!(right&down),1010
