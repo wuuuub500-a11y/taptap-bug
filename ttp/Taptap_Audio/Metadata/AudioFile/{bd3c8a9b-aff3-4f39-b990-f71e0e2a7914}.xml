@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bd3c8a9b-aff3-4f39-b990-f71e0e2a7914}">
 		<property name="assetPath">
-			<value>Plane_Fly_By.wav</value>
+			<value>Sound Effects/Chapter 1/Plane_Fly_By.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

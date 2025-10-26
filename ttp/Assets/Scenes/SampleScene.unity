@@ -37994,56 +37994,133 @@ MonoBehaviour:
       Data2: 1264764799
       Data3: 1141695882
       Data4: -1379108453
-    Path: event:/Plane_Fly_By
+    Path: event:/Sound_Effects/Chapter 1/Plane_Fly_By
   <ComputerOperating>k__BackingField:
     Guid:
       Data1: 1204273262
       Data2: 1244164339
       Data3: -412779880
       Data4: 591581595
-    Path: event:/Computer_Operating
+    Path: event:/Sound_Effects/Chapter 1/Computer_Operating
   <ComputerOperating_Glitch>k__BackingField:
     Guid:
       Data1: 1614042777
       Data2: 1326456605
       Data3: -537254477
       Data4: -1937638079
-    Path: event:/Computer_Operatinv_Glitch
+    Path: event:/Sound_Effects/Chapter 1/Computer_Operatinv_Glitch
   <Password_Correct>k__BackingField:
     Guid:
       Data1: 546246943
       Data2: 1200258920
       Data3: 848622507
       Data4: -397887256
-    Path: event:/Password_Correct
+    Path: event:/Sound_Effects/Chapter 1/Password_Correct
   <Password_Incorrect>k__BackingField:
     Guid:
       Data1: 87247876
       Data2: 1179111501
       Data3: 410720409
       Data4: 352791496
-    Path: event:/Password_Incorrect
+    Path: event:/Sound_Effects/Chapter 1/Password_Incorrect
   <News_Notification>k__BackingField:
     Guid:
       Data1: -602779092
       Data2: 1197809652
       Data3: 251121806
       Data4: 1678158927
-    Path: event:/News_Notification
+    Path: event:/Sound_Effects/Chapter 1/News_Notification
   <Plastic_Folder>k__BackingField:
     Guid:
       Data1: -954128217
       Data2: 1122597993
       Data3: 1949793447
       Data4: 1166396279
-    Path: event:/Plastic_Folder
+    Path: event:/Sound_Effects/Chapter 1/Plastic_Folder
   <Typing_Password>k__BackingField:
     Guid:
       Data1: -495395407
       Data2: 1257113848
       Data3: 2051449474
       Data4: 523891699
-    Path: event:/Typing_Password
+    Path: event:/Sound_Effects/Chapter 1/Typing_Password
+  <Notification>k__BackingField:
+    Guid:
+      Data1: -259695360
+      Data2: 1333167522
+      Data3: -2070028900
+      Data4: -51783959
+    Path: event:/Sound_Effects/Chapter 3/Notification
+  <Boss_Voice>k__BackingField:
+    Guid:
+      Data1: -1917045483
+      Data2: 1129408168
+      Data3: -558950771
+      Data4: 641315093
+    Path: event:/Sound_Effects/Chapter 3/Boss_Voice
+  <Count_Down>k__BackingField:
+    Guid:
+      Data1: -733651398
+      Data2: 1159237709
+      Data3: 572896419
+      Data4: -185524537
+    Path: event:/Sound_Effects/Chapter 3/Count_Down
+  <Get_File_Success>k__BackingField:
+    Guid:
+      Data1: 1879307356
+      Data2: 1248236712
+      Data3: -2045585767
+      Data4: -309757941
+    Path: event:/Sound_Effects/Chapter 3/Get_File_Success
+  <Get_File_Fail>k__BackingField:
+    Guid:
+      Data1: 1771391179
+      Data2: 1311444567
+      Data3: 36035514
+      Data4: 1032604526
+    Path: event:/Sound_Effects/Chapter 3/Get_File_Fail
+  <Insect_Moving>k__BackingField:
+    Guid:
+      Data1: -751271986
+      Data2: 1302718839
+      Data3: -107379281
+      Data4: 857722068
+    Path: event:/Sound_Effects/Chapter 3/Insect_Moving
+  <Light_Static>k__BackingField:
+    Guid:
+      Data1: -845735140
+      Data2: 1128493449
+      Data3: -1261587046
+      Data4: 2139398878
+    Path: event:/Sound_Effects/Chapter 3/Light_Static
+  <MUSIC_Chapter_0>k__BackingField:
+    Guid:
+      Data1: 1365225900
+      Data2: 1116090575
+      Data3: -1641216087
+      Data4: -1670252567
+    Path: event:/Music/Chapter_0
+  <MUSIC_Chapter_1>k__BackingField:
+    Guid:
+      Data1: -228319060
+      Data2: 1176993419
+      Data3: 510845609
+      Data4: -1863405837
+    Path: event:/Music/Chapter_1
+  <MUSIC_Chapter_2>k__BackingField:
+    Guid:
+      Data1: -1005015994
+      Data2: 1242566324
+      Data3: -91912032
+      Data4: -392226172
+    Path: event:/Music/Chapter_2
+  <MUSIC_Chapter_3>k__BackingField:
+    Guid:
+      Data1: 107545322
+      Data2: 1261747187
+      Data3: 1695071914
+      Data4: 1855045971
+    Path: event:/Music/Chapter_3
 --- !u!114 &2145806046
 MonoBehaviour:
   m_ObjectHideFlags: 0

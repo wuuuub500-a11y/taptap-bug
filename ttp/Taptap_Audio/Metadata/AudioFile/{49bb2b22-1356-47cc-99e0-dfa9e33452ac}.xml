@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{49bb2b22-1356-47cc-99e0-dfa9e33452ac}">
+		<property name="assetPath">
+			<value>Sound Effects/Chapter 3/Insect_Moving.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>20.375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{abdaa3f3-4ba5-494a-9554-e67056b754de}</destination>
+		</relationship>
+	</object>
+</objects>

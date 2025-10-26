@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9ea8a153-0143-4b8c-aeda-fe87546269d5}">
 		<property name="assetPath">
-			<value>Type_Password.wav</value>
+			<value>Sound Effects/Chapter 1/Type_Password.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

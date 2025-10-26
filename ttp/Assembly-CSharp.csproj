@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Core\BugVideoTrigger.cs" />
     <Compile Include="Assets\Scripts\Apps\NotebookApp.cs" />
     <Compile Include="Assets\Scripts\Apps\BrowserApp.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicState.cs" />
     <Compile Include="Assets\Scripts\Apps\ChatApp.cs" />
     <Compile Include="Assets\Scripts\Apps\BugApp.cs" />
     <Compile Include="Assets\Scripts\Apps\QuestionnaireApp.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\Apps\GalleryApp.cs" />
     <Compile Include="Assets\Scripts\Apps\PhotoAlbumApp.cs" />
     <Compile Include="Assets\Scripts\Apps\BlogApp.cs" />
+    <Compile Include="Assets\Scripts\Audio\EndingState.cs" />
     <Compile Include="Assets\Scripts\Desktop\WindowManager.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioParameter.cs" />
   </ItemGroup>

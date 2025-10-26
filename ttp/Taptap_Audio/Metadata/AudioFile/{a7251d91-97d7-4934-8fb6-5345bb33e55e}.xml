@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a7251d91-97d7-4934-8fb6-5345bb33e55e}">
 		<property name="assetPath">
-			<value>Computer_Operating_With_Glitch.wav</value>
+			<value>Sound Effects/Chapter 1/Computer_Operating_With_Glitch.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

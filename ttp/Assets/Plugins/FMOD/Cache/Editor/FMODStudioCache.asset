@@ -1,26 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5853834932980593803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Sound_Effects.bank
-  m_EditorClassIdentifier: 
-  Path: Taptap_Audio/Build/Desktop/Sound_Effects.bank
-  Name: Sound_Effects
-  StudioPath: bank:/Sound_Effects
-  lastModified: 638969852627376472
-  FileSizes:
-  - Name: Desktop
-    Value: 339424
-  Exists: 1
---- !u!114 &-5481264584700591987
+--- !u!114 &-8971456942153331357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,16 +10,221 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Password_Correct
+  m_Name: event:/Sound_Effects/Chapter 1/Computer_Operatinv_Glitch
   m_EditorClassIdentifier: 
-  Path: event:/Password_Correct
+  Path: event:/Sound_Effects/Chapter 1/Computer_Operatinv_Glitch
   Guid:
-    Data1: 546246943
-    Data2: 1200258920
-    Data3: 848622507
-    Data4: -397887256
+    Data1: 1614042777
+    Data2: 1326456605
+    Data3: -537254477
+    Data4: -1937638079
   Banks:
-  - {fileID: -5853834932980593803}
+  - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8438421598936365358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SoundEffect_Chapter_3.bank
+  m_EditorClassIdentifier: 
+  Path: Taptap_Audio/Build/Desktop/SoundEffect_Chapter_3.bank
+  Name: SoundEffect_Chapter_3
+  StudioPath: bank:/SoundEffect_Chapter_3
+  lastModified: 638970828724475874
+  FileSizes:
+  - Name: Desktop
+    Value: 920384
+  Exists: 1
+--- !u!114 &-8347602004149571305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Notification
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Notification
+  Guid:
+    Data1: -259695360
+    Data2: 1333167522
+    Data3: -2070028900
+    Data4: -51783959
+  Banks:
+  - {fileID: -8438421598936365358}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7985992825476181678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Insect_Moving
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Insect_Moving
+  Guid:
+    Data1: -751271986
+    Data2: 1302718839
+    Data3: -107379281
+    Data4: 857722068
+  Banks:
+  - {fileID: -8438421598936365358}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20375
+--- !u!114 &-7468964322177538460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Taptap_Audio/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638970828733970704
+  FileSizes:
+  - Name: Desktop
+    Value: 5663712
+  Exists: 1
+--- !u!114 &-4849749735894351190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapter_1/Music_State
+  m_EditorClassIdentifier: 
+  Name: Music_State
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1237263597
+    data2: 2982856022
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Album
+  - Blog
+  - Wechat
+  - ListCrime
+  - Minigame
+  - Ending
+  Exists: 1
+--- !u!114 &-4748001140041241817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 1/Plane_Fly_By
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 1/Plane_Fly_By
+  Guid:
+    Data1: -800940042
+    Data2: 1264764799
+    Data3: 1141695882
+    Data4: -1379108453
+  Banks:
+  - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4708284675105992340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Boss_Voice
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Boss_Voice
+  Guid:
+    Data1: -1917045483
+    Data2: 1129408168
+    Data3: -558950771
+    Data4: 641315093
+  Banks:
+  - {fileID: -8438421598936365358}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4632096975955762614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Count_Down
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Count_Down
+  Guid:
+    Data1: -733651398
+    Data2: 1159237709
+    Data3: 572896419
+    Data4: -185524537
+  Banks:
+  - {fileID: -8438421598936365358}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -62,12 +247,12 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638969852624332580
+  lastModified: 638970828717853872
   FileSizes:
   - Name: Desktop
-    Value: 1200
+    Value: 1928
   Exists: 1
---- !u!114 &-1290323746107006516
+--- !u!114 &-3929771885714316365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,16 +262,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Password_Incorrect
+  m_Name: event:/Sound_Effects/Chapter 3/Get_File_Fail
   m_EditorClassIdentifier: 
-  Path: event:/Password_Incorrect
+  Path: event:/Sound_Effects/Chapter 3/Get_File_Fail
   Guid:
-    Data1: 87247876
-    Data2: 1179111501
-    Data3: 410720409
-    Data4: 352791496
+    Data1: 1771391179
+    Data2: 1311444567
+    Data3: 36035514
+    Data4: 1032604526
   Banks:
-  - {fileID: -5853834932980593803}
+  - {fileID: -8438421598936365358}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -94,7 +279,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-988111924020160395
+--- !u!114 &-3904955533177372299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SoundEffect_Chapter_1.bank
+  m_EditorClassIdentifier: 
+  Path: Taptap_Audio/Build/Desktop/SoundEffect_Chapter_1.bank
+  Name: SoundEffect_Chapter_1
+  StudioPath: bank:/SoundEffect_Chapter_1
+  lastModified: 638970828720898364
+  FileSizes:
+  - Name: Desktop
+    Value: 339424
+  Exists: 1
+--- !u!114 &-3863984543479665893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,16 +309,157 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Typing_Password
+  m_Name: event:/Music/Chapter_3
   m_EditorClassIdentifier: 
-  Path: event:/Typing_Password
+  Path: event:/Music/Chapter_3
   Guid:
-    Data1: -495395407
-    Data2: 1257113848
-    Data3: 2051449474
-    Data4: 523891699
+    Data1: 107545322
+    Data2: 1261747187
+    Data3: 1695071914
+    Data4: 1855045971
   Banks:
-  - {fileID: -5853834932980593803}
+  - {fileID: -7468964322177538460}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4662747998805924655}
+  - {fileID: 7850634646265253480}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 273816
+--- !u!114 &-3731060109863900695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Light_Static
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Light_Static
+  Guid:
+    Data1: -845735140
+    Data2: 1128493449
+    Data3: -1261587046
+    Data4: 2139398878
+  Banks:
+  - {fileID: -8438421598936365358}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15375
+--- !u!114 &-2436573254075774499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music_State
+  m_EditorClassIdentifier: 
+  Name: Music_State
+  StudioPath: parameter:/Music_State
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1237263597
+    data2: 2982856022
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Album
+  - Blog
+  - Wechat
+  - ListCrime
+  - Minigame
+  - Ending
+  Exists: 1
+--- !u!114 &-1932692742450696220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Chapter_2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Chapter_2
+  Guid:
+    Data1: -1005015994
+    Data2: 1242566324
+    Data3: -91912032
+    Data4: -392226172
+  Banks:
+  - {fileID: -7468964322177538460}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7661642577284134778}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 126984
+--- !u!114 &-1559127496931247015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 3/Get_File_Success
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 3/Get_File_Success
+  Guid:
+    Data1: 1879307356
+    Data2: 1248236712
+    Data3: -2045585767
+    Data4: -309757941
+  Banks:
+  - {fileID: -8438421598936365358}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-601959073457189148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 1/Computer_Operating
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 1/Computer_Operating
+  Guid:
+    Data1: 1204273262
+    Data2: 1244164339
+    Data3: -412779880
+    Data4: 591581595
+  Banks:
+  - {fileID: -3904955533177372299}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -136,40 +482,103 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -4476095393539104665}
   - {fileID: 850792426621828176}
-  - {fileID: -5853834932980593803}
+  - {fileID: -7468964322177538460}
+  - {fileID: -3904955533177372299}
+  - {fileID: -8438421598936365358}
   EditorEvents:
-  - {fileID: -1290323746107006516}
-  - {fileID: -5481264584700591987}
-  - {fileID: 6074971042681532419}
-  - {fileID: 7516536101621414710}
-  - {fileID: 8073223186717737396}
-  - {fileID: 8594703880444809068}
-  - {fileID: -988111924020160395}
-  - {fileID: 9220564394641835901}
-  EditorParameters: []
+  - {fileID: -1932692742450696220}
+  - {fileID: 5426527311122380273}
+  - {fileID: 619702561972506607}
+  - {fileID: -3863984543479665893}
+  - {fileID: 8419725489166506380}
+  - {fileID: 5356662365156578565}
+  - {fileID: 3547192883847015586}
+  - {fileID: -601959073457189148}
+  - {fileID: -8971456942153331357}
+  - {fileID: 1509987805762254055}
+  - {fileID: 4447664945023901607}
+  - {fileID: -4748001140041241817}
+  - {fileID: -8347602004149571305}
+  - {fileID: -4708284675105992340}
+  - {fileID: -3731060109863900695}
+  - {fileID: -4632096975955762614}
+  - {fileID: -1559127496931247015}
+  - {fileID: -3929771885714316365}
+  - {fileID: -7985992825476181678}
+  EditorParameters:
+  - {fileID: -2436573254075774499}
   MasterBanks:
   - {fileID: 850792426621828176}
   StringsBanks:
   - {fileID: -4476095393539104665}
   cacheVersion: 131849
-  cacheTime: 638969852627376472
+  cacheTime: 638970828733970704
   SerializableEventsDict:
-  - key: event:/Password_Incorrect
+  - key: event:/Music/Chapter_2
     index: 0
-  - key: event:/Password_Correct
+  - key: event:/Music/Chapter_1
     index: 1
-  - key: event:/News_Notification
+  - key: event:/Music/Chapter_0
     index: 2
-  - key: event:/Computer_Operating
+  - key: event:/Music/Chapter_3
     index: 3
-  - key: event:/Computer_Operatinv_Glitch
+  - key: event:/Sound_Effects/Chapter 1/Password_Incorrect
     index: 4
-  - key: event:/Plastic_Folder
+  - key: event:/Sound_Effects/Chapter 1/Password_Correct
     index: 5
-  - key: event:/Typing_Password
+  - key: event:/Sound_Effects/Chapter 1/News_Notification
     index: 6
-  - key: event:/Plane_Fly_By
+  - key: event:/Sound_Effects/Chapter 1/Computer_Operating
     index: 7
+  - key: event:/Sound_Effects/Chapter 1/Computer_Operatinv_Glitch
+    index: 8
+  - key: event:/Sound_Effects/Chapter 1/Plastic_Folder
+    index: 9
+  - key: event:/Sound_Effects/Chapter 1/Typing_Password
+    index: 10
+  - key: event:/Sound_Effects/Chapter 1/Plane_Fly_By
+    index: 11
+  - key: event:/Sound_Effects/Chapter 3/Notification
+    index: 12
+  - key: event:/Sound_Effects/Chapter 3/Boss_Voice
+    index: 13
+  - key: event:/Sound_Effects/Chapter 3/Light_Static
+    index: 14
+  - key: event:/Sound_Effects/Chapter 3/Count_Down
+    index: 15
+  - key: event:/Sound_Effects/Chapter 3/Get_File_Success
+    index: 16
+  - key: event:/Sound_Effects/Chapter 3/Get_File_Fail
+    index: 17
+  - key: event:/Sound_Effects/Chapter 3/Insect_Moving
+    index: 18
+--- !u!114 &619702561972506607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Chapter_0
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Chapter_0
+  Guid:
+    Data1: 1365225900
+    Data2: 1116090575
+    Data3: -1641216087
+    Data4: -1670252567
+  Banks:
+  - {fileID: -7468964322177538460}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34909
 --- !u!114 &850792426621828176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,12 +594,12 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638969852624317529
+  lastModified: 638970828717843766
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 1316
   Exists: 1
---- !u!114 &6074971042681532419
+--- !u!114 &1509987805762254055
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,97 +609,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/News_Notification
+  m_Name: event:/Sound_Effects/Chapter 1/Plastic_Folder
   m_EditorClassIdentifier: 
-  Path: event:/News_Notification
-  Guid:
-    Data1: -602779092
-    Data2: 1197809652
-    Data3: 251121806
-    Data4: 1678158927
-  Banks:
-  - {fileID: -5853834932980593803}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &7516536101621414710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer_Operating
-  m_EditorClassIdentifier: 
-  Path: event:/Computer_Operating
-  Guid:
-    Data1: 1204273262
-    Data2: 1244164339
-    Data3: -412779880
-    Data4: 591581595
-  Banks:
-  - {fileID: -5853834932980593803}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8073223186717737396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer_Operatinv_Glitch
-  m_EditorClassIdentifier: 
-  Path: event:/Computer_Operatinv_Glitch
-  Guid:
-    Data1: 1614042777
-    Data2: 1326456605
-    Data3: -537254477
-    Data4: -1937638079
-  Banks:
-  - {fileID: -5853834932980593803}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8594703880444809068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Plastic_Folder
-  m_EditorClassIdentifier: 
-  Path: event:/Plastic_Folder
+  Path: event:/Sound_Effects/Chapter 1/Plastic_Folder
   Guid:
     Data1: -954128217
     Data2: 1122597993
     Data3: 1949793447
     Data4: 1166396279
   Banks:
-  - {fileID: -5853834932980593803}
+  - {fileID: -3904955533177372299}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -298,7 +626,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &9220564394641835901
+--- !u!114 &3547192883847015586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,16 +636,212 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Plane_Fly_By
+  m_Name: event:/Sound_Effects/Chapter 1/News_Notification
   m_EditorClassIdentifier: 
-  Path: event:/Plane_Fly_By
+  Path: event:/Sound_Effects/Chapter 1/News_Notification
   Guid:
-    Data1: -800940042
-    Data2: 1264764799
-    Data3: 1141695882
-    Data4: -1379108453
+    Data1: -602779092
+    Data2: 1197809652
+    Data3: 251121806
+    Data4: 1678158927
   Banks:
-  - {fileID: -5853834932980593803}
+  - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4447664945023901607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 1/Typing_Password
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 1/Typing_Password
+  Guid:
+    Data1: -495395407
+    Data2: 1257113848
+    Data3: 2051449474
+    Data4: 523891699
+  Banks:
+  - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4662747998805924655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapter_3/Ending_Type
+  m_EditorClassIdentifier: 
+  Name: Ending_Type
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2031027568
+    data2: 2822057873
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Bad
+  - Happy
+  - Happy_Special
+  Exists: 1
+--- !u!114 &5356662365156578565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 1/Password_Correct
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 1/Password_Correct
+  Guid:
+    Data1: 546246943
+    Data2: 1200258920
+    Data3: 848622507
+    Data4: -397887256
+  Banks:
+  - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5426527311122380273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Chapter_1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Chapter_1
+  Guid:
+    Data1: -228319060
+    Data2: 1176993419
+    Data3: 510845609
+    Data4: -1863405837
+  Banks:
+  - {fileID: -7468964322177538460}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4849749735894351190}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 181800
+--- !u!114 &7661642577284134778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapter_2/Music_State
+  m_EditorClassIdentifier: 
+  Name: Music_State
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1237263597
+    data2: 2982856022
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Album
+  - Blog
+  - Wechat
+  - ListCrime
+  - Minigame
+  - Ending
+  Exists: 1
+--- !u!114 &7850634646265253480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapter_3/Music_State
+  m_EditorClassIdentifier: 
+  Name: Music_State
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1237263597
+    data2: 2982856022
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Album
+  - Blog
+  - Wechat
+  - ListCrime
+  - Minigame
+  - Ending
+  Exists: 1
+--- !u!114 &8419725489166506380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 1/Password_Incorrect
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 1/Password_Incorrect
+  Guid:
+    Data1: 87247876
+    Data2: 1179111501
+    Data3: 410720409
+    Data4: 352791496
+  Banks:
+  - {fileID: -3904955533177372299}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

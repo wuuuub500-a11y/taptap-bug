@@ -15,6 +15,21 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference Plastic_Folder { get; private set; }
     [field: SerializeField] public EventReference Typing_Password { get; private set; }
 
+    [field: Header("Sound Effects - Chapter 3")]
+    [field: SerializeField] public EventReference Notification { get; private set; }
+    [field: SerializeField] public EventReference Boss_Voice { get; private set; }
+    [field: SerializeField] public EventReference Count_Down { get; private set; }
+    [field: SerializeField] public EventReference Get_File_Success { get; private set; }
+    [field: SerializeField] public EventReference Get_File_Fail { get; private set; }
+    [field: SerializeField] public EventReference Insect_Moving { get; private set; }
+    [field: SerializeField] public EventReference Light_Static { get; private set; }
+
+    [field: Header("Music")]
+    [field: SerializeField] public EventReference MUSIC_Chapter_0 { get; private set; }
+    [field: SerializeField] public EventReference MUSIC_Chapter_1{ get; private set; }
+    [field: SerializeField] public EventReference MUSIC_Chapter_2 { get; private set; }
+    [field: SerializeField] public EventReference MUSIC_Chapter_3 { get; private set; }
+
     private void Awake()
     {
         if (Instance == null)

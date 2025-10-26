@@ -108,16 +108,16 @@ public class AudioManager : MonoBehaviour
     }
 
     // Enum representing different music states for background music
-    //public void SetState(EventInstance eventInstance, MusicState musicState)
-    //{
-    //    eventInstance.setParameterByName("MusicState", (float) musicState);
-    //}
+    public void SetState(EventInstance eventInstance, MusicState musicState)
+    {
+        eventInstance.setParameterByName("Music_State", (float)musicState);
+    }
 
-    // Enum representing different material states for sound effects
-    //public void SetState(EventInstance eventInstance, MaterialType materialType)
-    //{
-    //    eventInstance.setParameterByName("MaterialType", (float)materialType);
-    //}
+    // Enum representing different ending states for sound effects
+    public void SetState(EventInstance eventInstance, EndingState endingState)
+    {
+        eventInstance.setParameterByName("Ending_Type", (float)endingState);
+    }
 
     // Set the volume of a specific bus in the FMOD Studio system
     public void SetBusVolume(string busPath, float volume)
