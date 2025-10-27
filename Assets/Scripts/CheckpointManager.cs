@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 public class CheckpointManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public Image background;
     public PasswordChecker passwordChecker;
+    public VideoPlayer player;
+    public RenderTexture rt;
     public TextController textController;
     public BugAppButton bugAppButton;
     public GameObject dialogue;
@@ -17,12 +21,14 @@ public class CheckpointManager : MonoBehaviour
     public GameObject desktop;
     public bool isUnlocked;
     public bool isFinished;
-    void Start()
+    void Awake()
     {
         isUnlocked = false;
         isFinished = false;
         checkpoint = 0;
+        background.gameObject.SetActive(true);
         passwordInput.SetActive(true);
+        player.gameObject.SetActive(false);
         desktop.SetActive(false);
         dialogue.gameObject.SetActive(true);
     }
@@ -55,12 +61,21 @@ public class CheckpointManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         passwordInput.SetActive(false);
+        if(rt != null){
+            rt.Release();
+        }
+        else
+        {
+            rt = RenderTexture.GetTemporary(1570, 1000);
+        }
+        player.gameObject.SetActive(true);
+        yield return new WaitForSeconds(player.frameCount / player.frameRate);
+        player.gameObject.SetActive(false);
         desktop.SetActive(true);
         yield return new WaitForSeconds(1.0f);
         bugAppButton.button.interactable = false;
         yield return textController.StartShowing(waitTime, 2);
         bugAppButton.button.interactable = true;
-        checkpoint = -1;
     }
     private IEnumerator coroutine2(float waitTime)
     {
@@ -70,6 +85,7 @@ public class CheckpointManager : MonoBehaviour
         desktop.SetActive(false);
         passwordInput.SetActive(false);
         isFinished = true;
+
     }
 
 }

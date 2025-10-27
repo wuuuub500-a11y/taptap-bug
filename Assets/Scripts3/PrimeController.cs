@@ -8,19 +8,22 @@ public class PrimeController : MonoBehaviour
     public LoadingController loadingController;
     public CrimeManager crimeManager;
     public KeyChecker keyChecker;
+    public GameObject consoleOn;
+    public GameObject noteOn;
+    public GameObject fileOn;
+    public GameObject webOn;
     private int procession;
     void Awake()
     {
         procession = 0;
-        checker.gameObject.SetActive(true);
-        loadingController.gameObject.SetActive(false);
-        crimeManager.gameObject.SetActive(false);
+        consoleOn.SetActive(true);
     }
     void Update()
     {
         if (procession==0&&checker.isUnlocked == true)
         {
             procession++;
+            consoleOn.SetActive(false);
             checker.gameObject.SetActive(false);
             loadingController.gameObject.SetActive(true);
         }
@@ -28,18 +31,20 @@ public class PrimeController : MonoBehaviour
         {
             procession++;
             loadingController.gameObject.SetActive(false);
-            crimeManager.gameObject.SetActive(true);
+            noteOn.SetActive(true);
         }
         if(procession==2&&crimeManager.isFinished == true)
         {
             procession++;
             crimeManager.gameObject.SetActive(false);
-            keyChecker.gameObject.SetActive(true);
+            noteOn.SetActive(false);
+            webOn.SetActive(true);
         }
         if(procession==3&&keyChecker.isFinished == true)
         {
             procession++;
             keyChecker.gameObject.SetActive(false);
+            webOn.SetActive(false);
         }
     }
 }
