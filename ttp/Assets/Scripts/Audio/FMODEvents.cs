@@ -15,6 +15,9 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference Plastic_Folder { get; private set; }
     [field: SerializeField] public EventReference Typing_Password { get; private set; }
 
+    [field: Header("Sound Effects - Chapter 2")]
+    [field: SerializeField] public EventReference Scream_Scary { get; private set; }
+
     [field: Header("Sound Effects - Chapter 3")]
     [field: SerializeField] public EventReference Notification { get; private set; }
     [field: SerializeField] public EventReference Boss_Voice { get; private set; }

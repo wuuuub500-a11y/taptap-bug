@@ -190,6 +190,7 @@ MonoBehaviour:
   - Music
   - News
   - SoundEffect_Chapter_1
+  - SoundEffect_Chapter_2
   - SoundEffect_Chapter_3
   BanksToLoad: []
   LiveUpdatePort: 9264

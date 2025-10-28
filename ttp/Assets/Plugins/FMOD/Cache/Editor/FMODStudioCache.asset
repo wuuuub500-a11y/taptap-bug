@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/SoundEffect_Chapter_3.bank
   Name: SoundEffect_Chapter_3
   StudioPath: bank:/SoundEffect_Chapter_3
-  lastModified: 638970828724475874
+  lastModified: 638972055921077005
   FileSizes:
   - Name: Desktop
     Value: 920384
@@ -116,7 +116,7 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638972014095574430
+  lastModified: 638972055919413590
   FileSizes:
   - Name: Desktop
     Value: 5610080
@@ -247,10 +247,10 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638972017780194681
+  lastModified: 638972055918220743
   FileSizes:
   - Name: Desktop
-    Value: 2152
+    Value: 2308
   Exists: 1
 --- !u!114 &-3929771885714316365
 MonoBehaviour:
@@ -294,7 +294,7 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/SoundEffect_Chapter_1.bank
   Name: SoundEffect_Chapter_1
   StudioPath: bank:/SoundEffect_Chapter_1
-  lastModified: 638970828720898364
+  lastModified: 638972055920580433
   FileSizes:
   - Name: Desktop
     Value: 339424
@@ -328,6 +328,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 273816
+--- !u!114 &-3804216349542010917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SoundEffect_Chapter_2.bank
+  m_EditorClassIdentifier: 
+  Path: Taptap_Audio/Build/Desktop/SoundEffect_Chapter_2.bank
+  Name: SoundEffect_Chapter_2
+  StudioPath: bank:/SoundEffect_Chapter_2
+  lastModified: 638972055922700685
+  FileSizes:
+  - Name: Desktop
+    Value: 77632
+  Exists: 1
 --- !u!114 &-3775272977097078166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +560,7 @@ MonoBehaviour:
   - {fileID: -3904955533177372299}
   - {fileID: -8438421598936365358}
   - {fileID: 6541875610639214717}
+  - {fileID: -3804216349542010917}
   EditorEvents:
   - {fileID: -1932692742450696220}
   - {fileID: 5426527311122380273}
@@ -564,6 +585,7 @@ MonoBehaviour:
   - {fileID: -1438854219080430082}
   - {fileID: 5337170915974580641}
   - {fileID: 7430604559778554331}
+  - {fileID: 4438163343738301034}
   EditorParameters:
   - {fileID: -2436573254075774499}
   MasterBanks:
@@ -571,7 +593,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4476095393539104665}
   cacheVersion: 131849
-  cacheTime: 638972017782267286
+  cacheTime: 638972055922700685
   SerializableEventsDict:
   - key: event:/Music/Chapter_2
     index: 0
@@ -619,6 +641,8 @@ MonoBehaviour:
     index: 21
   - key: event:/News_Bad_Ending
     index: 22
+  - key: event:/Sound_Effects/Chapter 2/Scream_Scary
+    index: 23
 --- !u!114 &619702561972506607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,10 +685,10 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638972017780194681
+  lastModified: 638972055918220743
   FileSizes:
   - Name: Desktop
-    Value: 1316
+    Value: 1620
   Exists: 1
 --- !u!114 &1509987805762254055
 MonoBehaviour:
@@ -713,6 +737,33 @@ MonoBehaviour:
     Data4: 1678158927
   Banks:
   - {fileID: -3904955533177372299}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4438163343738301034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Effects/Chapter 2/Scream_Scary
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Effects/Chapter 2/Scream_Scary
+  Guid:
+    Data1: -1016528780
+    Data2: 1219954634
+    Data3: -1159161189
+    Data4: 463493351
+  Banks:
+  - {fileID: -3804216349542010917}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -871,7 +922,7 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/News.bank
   Name: News
   StudioPath: bank:/News
-  lastModified: 638972017782267286
+  lastModified: 638972055920027685
   FileSizes:
   - Name: Desktop
     Value: 279328

@@ -321,6 +321,13 @@ MonoBehaviour:
       Data3: 2051449474
       Data4: 523891699
     Path: event:/Sound_Effects/Chapter 1/Typing_Password
+  <Scream_Scary>k__BackingField:
+    Guid:
+      Data1: -1016528780
+      Data2: 1219954634
+      Data3: -1159161189
+      Data4: 463493351
+    Path: event:/Sound_Effects/Chapter 2/Scream_Scary
   <Notification>k__BackingField:
     Guid:
       Data1: -259695360
