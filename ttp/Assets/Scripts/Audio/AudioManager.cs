@@ -2,6 +2,7 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 using System.Collections.Generic;
+using UnityEditor.Callbacks;
 
 public class AudioManager : MonoBehaviour
 {
@@ -14,12 +15,12 @@ public class AudioManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Ensure this instance persists across scenes
+            DontDestroyOnLoad(gameObject);
         }
-        else
+        else if (Instance != this)
         {
-            Debug.LogError("Multiple instances of AudioManager detected!");
             Destroy(gameObject);
+            return;
         }
 
         // Initialize the list to track active looped sounds (if not already initialized)
@@ -108,15 +109,15 @@ public class AudioManager : MonoBehaviour
     }
 
     // Enum representing different music states for background music
-    public void SetState(EventInstance eventInstance, MusicState musicState)
+    public void SetState(MusicState musicState)
     {
-        eventInstance.setParameterByName("Music_State", (float)musicState);
+        RuntimeManager.StudioSystem.setParameterByName("Music_State", (float)musicState);
     }
 
     // Enum representing different ending states for sound effects
-    public void SetState(EventInstance eventInstance, EndingState endingState)
+    public void SetState(EndingState endingState)
     {
-        eventInstance.setParameterByName("Ending_Type", (float)endingState);
+        RuntimeManager.StudioSystem.setParameterByName("Music_State", (float)endingState);
     }
 
     // Set the volume of a specific bus in the FMOD Studio system

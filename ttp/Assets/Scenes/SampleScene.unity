@@ -9365,7 +9365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 519420028}
 --- !u!1 &524312874
 GameObject:
   m_ObjectHideFlags: 0
@@ -14974,6 +14974,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &913866153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913866155}
+  - component: {fileID: 913866154}
+  m_Layer: 0
+  m_Name: MusicPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &913866154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913866153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfead8cbe9f393348be14cd2c0d66343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicState: 0
+--- !u!4 &913866155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913866153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1416.8146, y: 699.11395, z: -9.609867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914482228
 GameObject:
   m_ObjectHideFlags: 0
@@ -19479,6 +19524,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: -17
       objectReference: {fileID: 0}
+    - target: {fileID: 3714802172133550156, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: m_HorizontalScrollbar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3795973916696773242, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: m_Name
       value: ChatWindow-c2
@@ -19566,6 +19615,10 @@ PrefabInstance:
     - target: {fileID: 5138589202968769525, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 5203421543097647063, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: m_HorizontalScrollbar
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5242012090703286144, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: m_SizeDelta.y
@@ -19680,6 +19733,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1155460265}
     - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: submitButton
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: passwordPanel
       value: 
       objectReference: {fileID: 0}
@@ -19688,11 +19745,39 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: questionnaireImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: questionnairePanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: question1InputField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: question2InputField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: question3InputField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: question4InputField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: passwordCancelButton
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: passwordConfirmButton
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: closeQuestionnaireButton
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6109084081145799931, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
@@ -19723,6 +19808,10 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6325113001825428767, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: m_HorizontalScrollbar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6379033815489949199, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -19739,6 +19828,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 37fde36640de544a98d6737fee9517ff, type: 3}
+    - target: {fileID: 6645893920152160894, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
+      propertyPath: m_HorizontalScrollbar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6945920578284721880, guid: 91137cb8715124b9aac763e591cc2166, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -38121,6 +38214,34 @@ MonoBehaviour:
       Data3: 1695071914
       Data4: 1855045971
     Path: event:/Music/Chapter_3
+  <NEWS_Chapter_0>k__BackingField:
+    Guid:
+      Data1: -1355843804
+      Data2: 1142372499
+      Data3: 34148276
+      Data4: 1539019473
+    Path: event:/News_Chapter_0
+  <NEWS_Bad_Ending>k__BackingField:
+    Guid:
+      Data1: 838055334
+      Data2: 1074801698
+      Data3: 300372132
+      Data4: -1653738831
+    Path: event:/News_Bad_Ending
+  <NEWS_Happy_Ending>k__BackingField:
+    Guid:
+      Data1: -1604484819
+      Data2: 1119191288
+      Data3: -459118926
+      Data4: 285608036
+    Path: event:/News_Good_Ending
+  <NEWS_Happy_Ending_Special>k__BackingField:
+    Guid:
+      Data1: -1268430568
+      Data2: 1227904710
+      Data3: -1622950218
+      Data4: 1765709851
+    Path: event:/News_Good_Ending_Special
 --- !u!114 &2145806046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38159,3 +38280,4 @@ SceneRoots:
   - {fileID: 1054080459}
   - {fileID: 1579113360}
   - {fileID: 2145806047}
+  - {fileID: 913866155}

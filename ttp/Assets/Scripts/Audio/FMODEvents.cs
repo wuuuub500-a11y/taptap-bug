@@ -29,6 +29,12 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference MUSIC_Chapter_1{ get; private set; }
     [field: SerializeField] public EventReference MUSIC_Chapter_2 { get; private set; }
     [field: SerializeField] public EventReference MUSIC_Chapter_3 { get; private set; }
+    
+    [field: Header("News Sound Effects")]
+    [field: SerializeField] public EventReference NEWS_Chapter_0 { get; private set; }
+    [field: SerializeField] public EventReference NEWS_Bad_Ending { get; private set; }
+    [field: SerializeField] public EventReference NEWS_Happy_Ending { get; private set; }
+    [field: SerializeField] public EventReference NEWS_Happy_Ending_Special { get; private set; }
 
     private void Awake()
     {
@@ -36,9 +42,10 @@ public class FMODEvents : MonoBehaviour
         {
             Instance = this;
         }
-        else
+        else if (Instance != this)
         {
-            Debug.LogError("Multiple instances of FMODEvents detected! Handled.");
+            Destroy(gameObject);
+            return;
         }
     }
 }

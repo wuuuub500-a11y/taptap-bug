@@ -116,10 +116,10 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638970828733970704
+  lastModified: 638972014095574430
   FileSizes:
   - Name: Desktop
-    Value: 5663712
+    Value: 5610080
   Exists: 1
 --- !u!114 &-4849749735894351190
 MonoBehaviour:
@@ -247,10 +247,10 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638970828717853872
+  lastModified: 638972017780194681
   FileSizes:
   - Name: Desktop
-    Value: 1928
+    Value: 2152
   Exists: 1
 --- !u!114 &-3929771885714316365
 MonoBehaviour:
@@ -328,6 +328,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 273816
+--- !u!114 &-3775272977097078166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/News_Good_Ending_Special
+  m_EditorClassIdentifier: 
+  Path: event:/News_Good_Ending_Special
+  Guid:
+    Data1: -1268430568
+    Data2: 1227904710
+    Data3: -1622950218
+    Data4: 1765709851
+  Banks:
+  - {fileID: 6541875610639214717}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3731060109863900695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +467,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1438854219080430082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/News_Chapter_0
+  m_EditorClassIdentifier: 
+  Path: event:/News_Chapter_0
+  Guid:
+    Data1: -1355843804
+    Data2: 1142372499
+    Data3: 34148276
+    Data4: 1539019473
+  Banks:
+  - {fileID: 6541875610639214717}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-601959073457189148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,6 +539,7 @@ MonoBehaviour:
   - {fileID: -7468964322177538460}
   - {fileID: -3904955533177372299}
   - {fileID: -8438421598936365358}
+  - {fileID: 6541875610639214717}
   EditorEvents:
   - {fileID: -1932692742450696220}
   - {fileID: 5426527311122380273}
@@ -505,6 +560,10 @@ MonoBehaviour:
   - {fileID: -1559127496931247015}
   - {fileID: -3929771885714316365}
   - {fileID: -7985992825476181678}
+  - {fileID: -3775272977097078166}
+  - {fileID: -1438854219080430082}
+  - {fileID: 5337170915974580641}
+  - {fileID: 7430604559778554331}
   EditorParameters:
   - {fileID: -2436573254075774499}
   MasterBanks:
@@ -512,7 +571,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4476095393539104665}
   cacheVersion: 131849
-  cacheTime: 638970828733970704
+  cacheTime: 638972017782267286
   SerializableEventsDict:
   - key: event:/Music/Chapter_2
     index: 0
@@ -552,6 +611,14 @@ MonoBehaviour:
     index: 17
   - key: event:/Sound_Effects/Chapter 3/Insect_Moving
     index: 18
+  - key: event:/News_Good_Ending_Special
+    index: 19
+  - key: event:/News_Chapter_0
+    index: 20
+  - key: event:/News_Good_Ending
+    index: 21
+  - key: event:/News_Bad_Ending
+    index: 22
 --- !u!114 &619702561972506607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,7 +661,7 @@ MonoBehaviour:
   Path: Taptap_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638970828717843766
+  lastModified: 638972017780194681
   FileSizes:
   - Name: Desktop
     Value: 1316
@@ -707,6 +774,33 @@ MonoBehaviour:
   - Happy
   - Happy_Special
   Exists: 1
+--- !u!114 &5337170915974580641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/News_Good_Ending
+  m_EditorClassIdentifier: 
+  Path: event:/News_Good_Ending
+  Guid:
+    Data1: -1604484819
+    Data2: 1119191288
+    Data3: -459118926
+    Data4: 285608036
+  Banks:
+  - {fileID: 6541875610639214717}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5356662365156578565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,6 +856,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 181800
+--- !u!114 &6541875610639214717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/News.bank
+  m_EditorClassIdentifier: 
+  Path: Taptap_Audio/Build/Desktop/News.bank
+  Name: News
+  StudioPath: bank:/News
+  lastModified: 638972017782267286
+  FileSizes:
+  - Name: Desktop
+    Value: 279328
+  Exists: 1
+--- !u!114 &7430604559778554331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/News_Bad_Ending
+  m_EditorClassIdentifier: 
+  Path: event:/News_Bad_Ending
+  Guid:
+    Data1: 838055334
+    Data2: 1074801698
+    Data3: 300372132
+    Data4: -1653738831
+  Banks:
+  - {fileID: 6541875610639214717}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7661642577284134778
 MonoBehaviour:
   m_ObjectHideFlags: 0
